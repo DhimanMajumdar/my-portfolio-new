@@ -30,15 +30,24 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-wrap gap-4">
-          <button className="px-6 py-3 rounded-full hover:bg-slate-300 text-white w-full sm:w-fit bg-linear-to-br from-blue-500 via-purple-500 to-pink-500">
+          {/* Hire Me Button */}
+          <button className="px-6 py-3 rounded-full hover:bg-slate-300 text-white w-full sm:w-fit bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 ">
             Hire Me
           </button>
           
+          {/* Download Resume Button */}
           <a href="/Dhiman_Resume_Upd.pdf" download target="_blank" rel="noopener noreferrer">
-            <button className="px-1 py-1 rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 hover:scale-105 transition">
+            <button className="px-1 py-1 rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 hover:scale-105 transition cursor-pointer">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3 text-white">
                 Download Resume
               </span>
+            </button>
+          </a>
+
+          {/* LeetCode Button */}
+          <a href="https://leetcode.com/Dhiman_07" target="_blank" rel="noopener noreferrer">
+            <button className="px-1 py-1 rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 hover:scale-105 transition cursor-pointer">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3 text-white">Leetcode</span>
             </button>
           </a>
         </div>
