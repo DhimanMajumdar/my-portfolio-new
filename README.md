@@ -22,7 +22,7 @@ This portfolio showcases my projects, skills, and contact information with a cle
 - Modular and reusable components
 - Optimized performance with Next.js
 - SEO-friendly structure
-- Contact section with API route support
+- Contact section with Formspree
 
 ---
 
@@ -39,10 +39,9 @@ portfolio-website/
 │   └── other-static-assets
 │
 ├── src/
-│   ├── api/
-│   │   └── send/
-│   │       └── route.js
-│   │
+│   ├
+│   │   
+│   │       
 │   ├── app/
 │   │   ├── favicon.ico
 │   │   ├── globals.css
@@ -61,7 +60,6 @@ portfolio-website/
 │   │   ├── ProjectSection.jsx
 │   │   └── TabButton.jsx
 │
-├── .env
 ├── .gitignore
 ├── package.json
 ├── package-lock.json

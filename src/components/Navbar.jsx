@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center justify-between mx-auto p-5 ">
             {/* LOGO */}
      <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-linear-to-r from-purple-400 to-pink-500 text-white font-bold">
-  AH
+  DM
 </div>
 
 <div className="mobile-menu block md:hidden">

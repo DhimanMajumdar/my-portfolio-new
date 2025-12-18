@@ -1,5 +1,6 @@
 import { Inter ,Poppins } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} ${poppins.variable}`}
       >
         {children}
+        <Toaster/>
       </body>
     </html>
   );
