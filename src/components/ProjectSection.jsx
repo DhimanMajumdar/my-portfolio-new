@@ -19,7 +19,7 @@ const projectsData = [
       "https://drive.google.com/file/d/13SI6v33GP6JE3SMJEBrN83iCPChUiOmn/view?usp=drive_link",
       "https://drive.google.com/file/d/1nFgPfCYbVxMlQpevh0gwwSxNCxI6RJgm/view?usp=drive_link"
     ],
-    githubUrl: "https://github.com/yourusername/EmPath-AI.git"
+    githubUrl: "https://github.com/DhimanMajumdar/EmPath-AI---AI-MENTAL-THERAPIST"
   },
   {
     id: 3,
