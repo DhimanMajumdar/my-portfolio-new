@@ -1,59 +1,67 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
+import React from "react";
+import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
     id: 1,
     title: "DevFusion",
-    description: "Social platform for developers to connect, chat, and collaborate with real-time communication, JWT authentication, Cron jobs, Amazon SES, deployed on AWS EC2.",
+    description:
+      "Social platform for developers to connect, chat, and collaborate with real-time communication, JWT authentication, Cron jobs, Amazon SES, deployed on AWS EC2.",
     image: "/DevFusion.png",
     liveUrls: ["https://devfusion.co.in"],
-    githubUrl: "https://github.com/DhimanMajumdar/DevFusion-full"
+    githubUrl: "https://github.com/DhimanMajumdar/DevFusion-full",
   },
   {
     id: 2,
-    title: "EmPath AI",
-    description: "AI-powered mental health assistant providing empathetic conversations, distress detection, crisis escalation, and privacy-first support via web and WhatsApp.",
-    image: "/empath-ai.png",
-    liveUrls: [
-      "https://drive.google.com/file/d/13SI6v33GP6JE3SMJEBrN83iCPChUiOmn/view?usp=drive_link",
-      "https://drive.google.com/file/d/1nFgPfCYbVxMlQpevh0gwwSxNCxI6RJgm/view?usp=drive_link"
-    ],
-    githubUrl: "https://github.com/DhimanMajumdar/EmPath-AI---AI-MENTAL-THERAPIST"
+    title: "DealSpy",
+    description:
+      "Full-stack price tracking app that monitors products across e-commerce sites, stores price history, and visualizes trends with interactive charts. Built with Next.js, Supabase, Firecrawl, and Recharts.",
+    image: "/dealspy.png",
+    liveUrls: ["https://dodealspy.vercel.app"],
+    githubUrl: "https://github.com/DhimanMajumdar/DealSpy",
   },
   {
     id: 3,
-    title: "FakeFlix GPT",
-    description: "Netflix-like platform with movie recommendations powered by Gemini AI, secure Firebase Auth, TMDB API, interactive trailers, and responsive UI.",
-    image: "/fakeflix.png",
-    liveUrls: ["https://fakeflix-gpt-5dp4.vercel.app/"],
-    githubUrl: "https://github.com/DhimanMajumdar/fakeflix-gpt"
+    title: "EmPath AI",
+    description:
+      "AI-powered mental health assistant providing empathetic conversations, distress detection, crisis escalation, and privacy-first support via web and WhatsApp.",
+    image: "/empath-ai.png",
+    liveUrls: [
+      "https://drive.google.com/file/d/13SI6v33GP6JE3SMJEBrN83iCPChUiOmn/view?usp=drive_link",
+      "https://drive.google.com/file/d/1nFgPfCYbVxMlQpevh0gwwSxNCxI6RJgm/view?usp=drive_link",
+    ],
+    githubUrl:
+      "https://github.com/DhimanMajumdar/EmPath-AI---AI-MENTAL-THERAPIST",
   },
+
   {
     id: 4,
-    title: "AI Personalized Newsletter Generator",
-    description: "Next.js & Supabase based AI newsletter platform using Gemini AI, Inngest, and EmailJS for personalized, scheduled content delivery.",
-    image: "/newsletter.png",
-    liveUrls: ["https://ai-newsletter-generatorr.vercel.app/"],
-    githubUrl: "https://github.com/DhimanMajumdar/AI-Newsletter-SaaS"
+    title: "FakeFlix GPT",
+    description:
+      "Netflix-like platform with movie recommendations powered by Gemini AI, secure Firebase Auth, TMDB API, interactive trailers, and responsive UI.",
+    image: "/fakeflix.png",
+    liveUrls: ["https://fakeflix-gpt-5dp4.vercel.app/"],
+    githubUrl: "https://github.com/DhimanMajumdar/fakeflix-gpt",
   },
   {
     id: 5,
-    title: "AtlasAura",
-    description: "React & Tailwind CSS app for exploring countries with real-time data, responsive UI, search, sort, and embedded YouTube travel guides.",
-    image: "/atlasAura.png",
-    liveUrls: ["https://dhiman-atlasaura.netlify.app"],
-    githubUrl: "https://github.com/yourusername/AtlasAura.git"
+    title: "AI Personalized Newsletter Generator",
+    description:
+      "Next.js & Supabase based AI newsletter platform using Gemini AI, Inngest, and EmailJS for personalized, scheduled content delivery.",
+    image: "/newsletter.png",
+    liveUrls: ["https://ai-newsletter-generatorr.vercel.app/"],
+    githubUrl: "https://github.com/DhimanMajumdar/AI-Newsletter-SaaS",
   },
+
   {
     id: 6,
     title: "Speak2SQL",
-    description: "AI-powered Text-to-SQL system using Python, Streamlit, LangChain, Llama 3, and Matplotlib for live database queries and visualizations.",
+    description:
+      "AI-powered Text-to-SQL system using Python, Streamlit, LangChain, Llama 3, and Matplotlib for live database queries and visualizations.",
     image: "/sql.png",
     liveUrls: [""],
-    githubUrl: "https://github.com/DhimanMajumdar/Speak2SQL"
+    githubUrl: "https://github.com/DhimanMajumdar/Speak2SQL",
   },
-  
 ];
 
 const ProjectSection = () => {
@@ -76,7 +84,7 @@ const ProjectSection = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectSection
+export default ProjectSection;
