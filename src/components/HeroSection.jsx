@@ -41,7 +41,7 @@ const HeroSection = () => {
             </button>
           </Link>
 
-          <Link href="/Dhiman_Resume_Upd.pdf" download target="_blank" rel="noopener noreferrer">
+          <Link href="/Dhiman_Resume.pdf" download target="_blank" rel="noopener noreferrer">
             <button className="px-1 py-1 sm:w-fit w-full rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 hover:scale-105 transition">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3 text-white">
                 Download Resume
