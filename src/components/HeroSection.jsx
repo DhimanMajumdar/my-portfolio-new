@@ -1,17 +1,17 @@
-"use client"
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { TypeAnimation } from 'react-type-animation';
+"use client";
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12">
-      
       {/* Left Content */}
       <div className="col-span-7 place-self-center text-center sm:text-left">
         <h1 className="mb-4 text-4xl lg:text-6xl font-extrabold tracking-tight leading-tight sm:text-5xl">
-          <span className="text-white">Hello, I&apos;m </span><br />
+          <span className="text-white">Hello, I&apos;m </span>
+          <br />
           <span className="bg-linear-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
             <TypeAnimation
               sequence={[
@@ -30,8 +30,9 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-[#ADB7BE] text-base lg:text-lg leading-relaxed max-w-xl mb-6">
-          Full-Stack Developer with strong DSA fundamentals, experienced in building scalable web applications,
-          AI-powered solutions, and real-time systems using React, Node.js, Next.js, FastAPI and AWS.
+          Full-Stack Developer with strong DSA fundamentals, experienced in
+          building scalable web applications, AI-powered solutions, and
+          real-time systems using React, Node.js, Next.js, FastAPI and AWS.
         </p>
 
         <div>
@@ -41,13 +42,18 @@ const HeroSection = () => {
             </button>
           </Link>
 
-          <Link href="/Dhiman_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://drive.google.com/file/d/1zS1A6ogXmsSNE7Xil-CEHASfjLtCQfOB/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
             <button className="px-1 py-1 sm:w-fit w-full rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 hover:scale-105 transition">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3 text-white">
-                Download Resume
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3 text-white font-semibold">
+                View Resume
               </span>
             </button>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -65,7 +71,7 @@ const HeroSection = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
