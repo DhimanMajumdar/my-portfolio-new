@@ -45,12 +45,12 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "AI Personalized Newsletter Generator",
+    title: "LexiFetch: RAG Based AI CHATBOT FOR PDFs",
     description:
-      "Next.js & Supabase based AI newsletter platform using Gemini AI, Inngest, and EmailJS for personalized, scheduled content delivery.",
-    image: "/newsletter.png",
-    liveUrls: ["https://ai-newsletter-generatorr.vercel.app/"],
-    githubUrl: "https://github.com/DhimanMajumdar/AI-Newsletter-SaaS",
+      "AI chatbot that answers questions from uploaded PDFs using LangChain, Llama 3, and Streamlit with a user-friendly interface.",
+    image: "/lexifetch.png",
+    liveUrls: ["https://lexifetch.streamlit.app/"],
+    githubUrl: "https://github.com/DhimanMajumdar/LexiFetch-RAG-BASED-AI-CHATBOT",
   },
 
   {
