@@ -22,18 +22,13 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "EmPath AI",
+    title: "SolveX",
     description:
-      "AI-powered mental health assistant providing empathetic conversations, distress detection, crisis escalation, and privacy-first support via web and WhatsApp.",
-    image: "/empath-ai.png",
-    liveUrls: [
-      "https://drive.google.com/file/d/13SI6v33GP6JE3SMJEBrN83iCPChUiOmn/view?usp=drive_link",
-      "https://drive.google.com/file/d/1nFgPfCYbVxMlQpevh0gwwSxNCxI6RJgm/view?usp=drive_link",
-    ],
-    githubUrl:
-      "https://github.com/DhimanMajumdar/EmPath-AI---AI-MENTAL-THERAPIST",
+      "Code platform for developers to create playlists, run code snippets with syntax highlighting, live execution, and language support.",
+    image: "/image.png",
+    liveUrls: ["https://solvex-opal.vercel.app/"],
+    githubUrl: "https://github.com/DhimanMajumdar/code-platform-project",
   },
-
   {
     id: 4,
     title: "FakeFlix GPT",
@@ -45,6 +40,19 @@ const projectsData = [
   },
   {
     id: 5,
+    title: "EmPath AI",
+    description:
+      "AI-powered mental health assistant providing empathetic conversations, distress detection, crisis escalation, and privacy-first support via web and WhatsApp.",
+    image: "/empath-ai.png",
+    liveUrls: [
+      "https://drive.google.com/file/d/13SI6v33GP6JE3SMJEBrN83iCPChUiOmn/view?usp=drive_link",
+      "https://drive.google.com/file/d/1nFgPfCYbVxMlQpevh0gwwSxNCxI6RJgm/view?usp=drive_link",
+    ],
+    githubUrl:
+      "https://github.com/DhimanMajumdar/EmPath-AI---AI-MENTAL-THERAPIST",
+  },
+  {
+    id: 6,
     title: "LexiFetch: RAG Based AI CHATBOT FOR PDFs",
     description:
       "AI chatbot that answers questions from uploaded PDFs using LangChain, Llama 3, and Streamlit with a user-friendly interface.",
@@ -53,15 +61,7 @@ const projectsData = [
     githubUrl: "https://github.com/DhimanMajumdar/LexiFetch-RAG-BASED-AI-CHATBOT",
   },
 
-  {
-    id: 6,
-    title: "Speak2SQL",
-    description:
-      "AI-powered Text-to-SQL system using Python, Streamlit, LangChain, Llama 3, and Matplotlib for live database queries and visualizations.",
-    image: "/sql.png",
-    liveUrls: [""],
-    githubUrl: "https://github.com/DhimanMajumdar/Speak2SQL",
-  },
+
 ];
 
 const ProjectSection = () => {
